@@ -8,4 +8,9 @@ public class Coche {
     public Coche() {
         marca = "Desconocida";
     }
+    
+    // Parametrizado
+    public Coche(String marca) {
+        this.marca = marca;
+    }
 }
