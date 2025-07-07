@@ -4,20 +4,14 @@ public class Coche {
     String marca;
     String modelo;
     
-    
-    // Por defecto
-    public Coche() {
-        marca = "Desconocida";
-    }
-    
     // Parametrizado
     public Coche(String marca) {
         this.marca = marca;
     }
     
-    // Sobrecargado o con dos parametros
+    // Llamada al construntor anterior
     public Coche(String marca, String modelo) {
-        this.marca = marca;
+        this(marca);
         this.modelo = modelo;
     }
 }
