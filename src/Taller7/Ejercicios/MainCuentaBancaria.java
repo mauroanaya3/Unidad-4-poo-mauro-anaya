@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Taller7.Ejercicios;
 
-/**
- *
- * @author Mauro
- */
+// Ejercicio 2
 public class MainCuentaBancaria {
-    
+    public static void main(String[] args) {
+        // Crear una cuenta bancaria
+        CuentaBancaria cuenta = new CuentaBancaria("123456789", 545000, "Ahorros");
+
+        // Intentar acceder directamente a numeroCuenta
+        System.out.println("Número de cuenta: " + cuenta.numeroCuenta); // ERROR: numeroCuenta es privado
+        
+        
+    }
 }
