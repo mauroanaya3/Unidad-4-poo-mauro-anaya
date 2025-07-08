@@ -6,9 +6,9 @@ package Taller9.Ejemplos;
  */
 public class Vehiculo {
 
-    protected String marca;
+    protected String tipo;
 
-    public Vehiculo(String marca) {
-        this.marca = marca;
+    public void mostrarTipo() {
+        System.out.println("Tipo de vehículo: " + tipo);
     }
 }
