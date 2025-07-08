@@ -1,6 +1,6 @@
 package Taller7.Ejemplos;
 
-public class Persona {
+class Persona {
 
     public String nombre;
 
