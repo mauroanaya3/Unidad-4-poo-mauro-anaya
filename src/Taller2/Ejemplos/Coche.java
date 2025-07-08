@@ -3,16 +3,18 @@ package Taller2.Ejemplos;
 
 public class Coche {
     private String marca;
+    private int velocidadMaxima;
 
-    public Coche(String marca) {
-        this.marca = marca; 
+    public Coche() {
+        this("Desconocida", 0);
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca; 
+    public Coche(String marca, int velocidadMaxima) {
+        this.marca = marca;
+        this.velocidadMaxima = velocidadMaxima;
     }
 
-    public void mostrarMarca() {
-        System.out.println("Marca: " + this.marca);
+    public void mostrarInformacion() {
+        System.out.println("Marca: " + this.marca + ", Velocidad máxima: " + this.velocidadMaxima);
     }
 }
