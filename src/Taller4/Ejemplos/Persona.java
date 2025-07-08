@@ -3,28 +3,16 @@ package Taller4.Ejemplos;
 public class Persona {
 
     private String nombre;
-    private int edad;
 
-    public Persona(String nombre, int edad) {
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
+    public Persona(String nombre) {
         this.nombre = nombre;
     }
+}
 
-    public int getEdad() {
-        return edad;
-    }
+public class Main {
 
-    public void setEdad(int edad) {
-        if (edad >= 0) {
-            this.edad = edad;
-        }
+    public static void main(String[] args) {
+        Persona p = new Persona("Juan");
+        System.out.println(p.nombre); // Error de compilación: nombre tiene acceso privado
     }
 }
