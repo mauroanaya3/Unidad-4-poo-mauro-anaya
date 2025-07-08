@@ -8,6 +8,6 @@ package Taller11.Ejemplos;
  *
  * @author Mauro
  */
-public class Coche {
+public class Coche extends Vehiculo {
     // Error de compilación: La clase Coche debe implementar el método abstracto conducir()
 }
