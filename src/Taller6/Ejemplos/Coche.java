@@ -1,19 +1,5 @@
 package Taller6.Ejemplos;
 
-public class Vehiculo {
-
-    protected String marca;
-    protected double velocidad;
-
-    public Vehiculo(String marca, double velocidad) {
-        this.marca = marca;
-        this.velocidad = velocidad;
-    }
-
-    protected void mostrarDetalles() {
-        System.out.println("Marca: " + marca + ", Velocidad: " + velocidad + " km/h");
-    }
-}
 // Clase derivada en el mismo paquete
  public class Coche extends Vehiculo {
 
@@ -29,4 +15,3 @@ public class Vehiculo {
         System.out.println("Número de puertas: " + puertas);
     }
 }
-
