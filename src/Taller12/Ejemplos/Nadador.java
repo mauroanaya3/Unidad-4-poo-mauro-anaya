@@ -7,5 +7,7 @@ package Taller12.Ejemplos;
 // Interfaz Nadador
 public interface Nadador {
 
-    void nadar();
+    default void despegar() {
+        System.out.println("Nadador despega.");
+    }
 }
