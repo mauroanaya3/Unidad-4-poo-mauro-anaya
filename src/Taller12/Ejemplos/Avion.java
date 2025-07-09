@@ -4,8 +4,6 @@
  */
 package Taller12.Ejemplos;
 
-// Interfaz Volador
-public interface Volador {
-
-    void volar();
+public class Avion implements Volador {
+    // Error de compilación: La clase Avion debe implementar el método volar()
 }
