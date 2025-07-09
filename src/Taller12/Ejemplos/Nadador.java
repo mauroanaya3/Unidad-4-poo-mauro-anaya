@@ -4,10 +4,8 @@
  */
 package Taller12.Ejemplos;
 
-// Interfaz Volador
-public interface Volador {
+// Interfaz Nadador
+public interface Nadador {
 
-    void volar();
+    void nadar();
 }
-
-

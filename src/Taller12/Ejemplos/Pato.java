@@ -1,5 +1,7 @@
 package Taller12.Ejemplos;
 
+// Clase Pato que implementa ambas interfaces
+
 public class Pato implements Volador, Nadador {
 
     @Override
